@@ -1,0 +1,118 @@
+/* 公共样式 */
+body {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;    /* 垂直居中 */
+    height: 100vh;          /* 视口高度 */
+    margin: 0;
+    background-color: #F8E5CB; /* 暖白色背景 */
+    font-family: "Poppins", sans-serif; /* 更现代、可爱的字体 */
+    color: #2E3A47; /* 深棕色文字 */
+}
+
+/* 超链接的默认颜色 */
+a {
+    color: #D8A272; /* 棕色 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+/* 鼠标悬停时的颜色 */
+a:hover {
+    color: #F4C28E; /* 橙色 */
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+
+/* 已访问链接的颜色 */
+a:visited {
+    color: #A67C52; /* 深棕色 */
+}
+
+/* 激活状态（点击时）的颜色 */
+a:active {
+    color: #F8E5CB; /* 暖白色 */
+}
+/* 标题样式 */
+.pCss{
+    font-size: 2rem; /* 增大标题字体 */
+    text-align: center; /* 水平居中 */
+    padding: 20px;
+    color: #2E3A47; /* 深棕色文字 */
+    font-family: "Poppins", sans-serif; /* 更现代、可爱的字体 */
+    font-weight: 700; /* 加粗字体 */
+    margin: 0 auto; /* 确保完全居中 */
+    display: block; /* 独占一行 */
+}
+
+/* 登录框样式 */
+.loginCss {
+    box-shadow: 0 0 15px #F4C28E; /* 浅金色阴影 */
+    background-color: #F1F1F1; /* 浅灰色背景 */
+    color: #2E3A47; /* 深棕色文字 */
+    width: 500px;
+    height: 520px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 子元素水平居中 */
+    justify-content: center; /* 子元素垂直居中 */
+    border: 2px solid #F4C28E; /* 浅金色边框 */
+    border-radius: 10px; /* 圆角 */
+}
+
+/* 输入框样式 */
+.textCss {
+    border-radius: 8px;
+    width: 230px;
+    height: 40px; /* 增大高度让输入框更突出 */
+    background-color: #F4C28E; /* 浅金色背景 */
+    color: #2E3A47; /* 深棕色文字 */
+    border: 2px solid #D8A272; /* 深棕黄色边框 */
+    margin: 10px 0;
+    padding: 5px;
+    text-align: center; /* 文本居中 */
+    font-size: 1.1rem; /* 增大字体尺寸 */
+    font-family: "Poppins", sans-serif; /* 可爱字体 */
+}
+
+/* 按钮样式 */
+.butCss {
+    width: 200px;
+    height: 45px; /* 稍微增大按钮高度 */
+    border-radius: 6px;
+    background-color: #D8A272; /* 深棕黄色背景 */
+    color: #FFFFFF; /* 白色文字 */
+    border: none;
+    font-size: 1.2rem; /* 增大按钮文字 */
+    cursor: pointer; /* 鼠标悬停效果 */
+    margin-top: 30px;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 10px rgba(216, 162, 114, 0.3); /* 柔和阴影 */
+    font-family: "Poppins", sans-serif; /* 可爱字体 */
+}
+
+.butCss:hover {
+    background-color: #F4C28E; /* 浅金色悬停背景 */
+    color: #2E3A47; /* 深棕色文字 */
+    box-shadow: 0 12px 16px rgba(244, 194, 142, 0.4), 0 17px 50px rgba(244, 194, 142, 0.3); /* 浅金色阴影 */
+}
+
+/* 表单样式 */
+.formCss {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 居中对齐 */
+    margin: 20px 0;
+    line-height: 1.6; /* 稍微增加行高 */
+    font-size: 1.1rem; /* 增大字号 */
+}
+
+/* 错误提示样式 */
+.errorOfUsername,
+.errorOfPassword {
+    color: #F4C28E; /* 浅金色提示文字 */
+    text-align: center; /* 居中对齐 */
+    margin: 5px 0;
+    font-size: 1.2rem; /* 增大错误提示字号 */
+    font-family: "Poppins", sans-serif; /* 主字体 */
+    font-weight: bold; /* 强调提示 */
+}

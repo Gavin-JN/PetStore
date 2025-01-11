@@ -1,0 +1,66 @@
+<catalog>
+    <track>
+        <name>Amazon Parrot</name>
+        <productId>AV-CB-01</productId>
+    </track>
+    <track>
+        <name>Finch</name>
+        <productId>AV-SB-02</productId>
+    </track>
+    <track>
+        <name>Koi</name>
+        <productId>FI-FW-01</productId>
+    </track>
+    <track>
+        <name>Goldfish</name>
+        <productId>FI-FW-02</productId>
+    </track>
+    <track>
+        <name>Angelfish</name>
+        <productId>FI-SW-01</productId>
+    </track>
+    <track>
+        <name>Tiger Shark</name>
+        <productId>FI-SW-02</productId>
+    </track>
+    <track>
+        <name>Persian</name>
+        <productId>FL-DLH-02</productId>
+    </track>
+    <track>
+        <name>Manx</name>
+        <productId>FL-DSH-01</productId>
+    </track>
+    <track>
+        <name>Bulldog</name>
+        <productId>K9-BD-01</productId>
+    </track>
+    <track>
+        <name>Chihuahua</name>
+        <productId>K9-CW-01</productId>
+    </track>
+    <track>
+        <name>Dalmation</name>
+        <productId>K9-DL-01</productId>
+    </track>
+    <track>
+        <name>Poodle</name>
+        <productId>K9-PO-02</productId>
+    </track>
+    <track>
+        <name>Golden Retriever</name>
+        <productId>K9-RT-01</productId>
+    </track>
+    <track>
+        <name>Labrador Retriever</name>
+        <productId>K9-RT-02</productId>
+    </track>
+    <track>
+        <name>Iguana</name>
+        <productId>RP-LI-02</productId>
+    </track>
+    <track>
+        <name>Rattlesnake</name>
+        <productId>RP-SN-01</productId>
+    </track>
+</catalog>

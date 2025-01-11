@@ -1,0 +1,18 @@
+$('#username').on('change',function(){
+    if($(this).val()==$('#oname').val()){
+    }
+    else{
+        $.ajax({
+            type:'GET',
+            url:'ifUserNameExited?uname='+$('#username').val(),
+            success:function(data){
+                if(data.length!=0){
+                    $('#em').text(data);
+                }
+                else{
+                    $('#em').text("");
+                }
+            }
+        })
+    }
+})

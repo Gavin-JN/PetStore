@@ -1,0 +1,193 @@
+/* 公共样式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif; /* 更现代、可爱的字体 */
+    background-color: #F8E5CB; /* 暖白色背景 */
+    color: #2E3A47; /* 深棕色文字 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 100vh; /* 占满屏幕高度 */
+}
+
+/* 输入框基础样式 */
+input {
+    z-index: 2;
+}
+
+/* 手机号错误提示样式 */
+.phoneError {
+    margin-top: -24%;
+    margin-left: 40%;
+    color: #F4C28E; /* 浅金色提示文字 */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* 验证码按钮容器 */
+.varityButDiv {
+    width: 100px;
+    height: 34px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F1F1; /* 深棕黄色背景 */
+}
+
+/* 验证码按钮 */
+.varityBut {
+    width: 90px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #F1F1F1; /* 暖白色 */
+    color: #2E3A47; /* 深棕色文字 */
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.varityBut:hover {
+    background-color: #F1F1F1; /* 深棕黄色悬停背景 */
+    box-shadow: 0 5px 10px rgba(216, 162, 114, 0.5);
+}
+
+/* 用户名相关样式 */
+#uexid {
+    position: relative;
+}
+
+/* 用户名错误提示 */
+#userexid {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    top: 16px;
+    left: 56px;
+    z-index: 1;
+    color: #F4C28E; /* 浅金色文字 */
+    font-size: 14px;
+}
+
+/* 密码相关样式 */
+#enpsw {
+    position: relative;
+}
+
+/* 错误信息提示 */
+.errorMassage {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+    left: 56px;
+    z-index: 1;
+    color: #F4C28E; /* 浅金色提示 */
+    font-size: 14px;
+}
+
+/* 错误信息文字 */
+.eMassage {
+    color: #F4C28E; /* 浅金色文字 */
+    font-size: 14px;
+}
+
+/* 提交按钮容器 */
+#sub {
+    position: relative;
+}
+
+/* 空白提示容器 */
+.emptyDiv {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    top: -30px;
+    left: 210px;
+    z-index: 1;
+    color: #D8A272; /* 浅金色提示 */
+    font-size: 14px;
+}
+
+/* 主容器 */
+.d1 {
+    height: 980px;
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #F4C28E; /* 浅金色阴影 */
+    border-radius: 15px;
+    background-color: #F1F1F1; /* 暖白色背景 */
+    margin-left: 6%;
+    margin-top: 410px;
+    margin-bottom: 150px;
+}
+
+/* 标题样式 */
+.p1 {
+    font-size: 2rem; /* 更大的标题字体 */
+    text-align: center;
+    padding-top: 30px;
+    color: #2E3A47; /* 深棕色 */
+    font-weight: bold;
+}
+
+/* 表单样式 */
+.formCss {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 表单内容居中 */
+    margin-left: 12%;
+    line-height: 55px;
+    font-size: 16px; /* 增大字体 */
+}
+
+/* 表格样式 */
+.tbody {
+    align-content: center;
+    margin-right: 10px;
+    line-height: 55px;
+    height: 50px;
+    text-align: center;
+    background-color: #F1F1F1; /* 暖白色背景 */
+}
+
+/* 输入框样式 */
+.textCss {
+    margin-top: 0;
+    align-items: center;
+    border-radius: 8px;
+    width: 330px;
+    height: 36px;
+    background-color: #F8E5CB; /* 浅金色背景 */
+    color: #2E3A47; /* 深棕色文字 */
+    border: 2px solid #D8A272; /* 深棕黄色边框 */
+    text-align: center; /* 确保文本居中 */
+    font-size: 16px;
+}
+
+/* 按钮样式 */
+.butCss {
+    margin-top: 30px;
+    width: 200px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #D8A272; /* 深棕黄色背景 */
+    color: white;
+    font-size: 16px; /* 合理的按钮文字大小 */
+    margin-left: 79%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.butCss:hover {
+    background-color: #F4C28E; /* 浅金色悬停背景 */
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.24),
+    0 17px 50px rgba(0, 0, 0, 0.19);
+}

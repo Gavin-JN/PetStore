@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="jsp-api1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../pack/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../pack/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../pack/mysql-connector-j-8.0.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../pack/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../pack/standard.jar!/" />
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="jar://$PROJECT_DIR$/../../pack/gson-2.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../A.java/src" />
+      <root url="file://$PROJECT_DIR$/../Course/src" />
+      <root url="file://$PROJECT_DIR$/../J6/src" />
+      <root url="file://$PROJECT_DIR$/../J7/src" />
+      <root url="file://$PROJECT_DIR$/../JA7/src" />
+      <root url="file://$PROJECT_DIR$/../JAV7/src" />
+      <root url="file://$PROJECT_DIR$/../JAVA/src" />
+      <root url="file://$PROJECT_DIR$/../JAV/src" />
+      <root url="file://$PROJECT_DIR$/../JA/src" />
+      <root url="file://$PROJECT_DIR$/../J/src" />
+      <root url="file://$PROJECT_DIR$/../Java-Wab_firstProject/src" />
+      <root url="file://$PROJECT_DIR$/../MyStack/src" />
+      <root url="file://$PROJECT_DIR$/../P8/src" />
+      <root url="file://$PROJECT_DIR$/../Pr8/src" />
+      <root url="file://$PROJECT_DIR$/../Pro/src" />
+      <root url="file://$PROJECT_DIR$/../Proj8/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/../demo1/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../demo2/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../demo/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../game2/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../game/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../jj/src" />
+      <root url="file://$PROJECT_DIR$/../linkPool/src" />
+      <root url="file://$PROJECT_DIR$/../pro 8/src" />
+      <root url="file://$PROJECT_DIR$/../sqlTest/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../test/src" />
+      <root url="file://$PROJECT_DIR$/../untitled1/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../untitled1/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../untitled2/src" />
+      <root url="file://$PROJECT_DIR$/../untitled3/src" />
+      <root url="file://$PROJECT_DIR$/../untitled4/src" />
+      <root url="file://$PROJECT_DIR$/../untitled6/demo/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../untitled6/demo/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../untitled/src" />
+      <root url="file://$PROJECT_DIR$/../webSecond/src" />
+      <root url="file://$PROJECT_DIR$/../webTest/src" />
+    </SOURCES>
+  </library>
+</component>
